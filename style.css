@@ -1,0 +1,266 @@
+#page1{
+    background-color: #A5D9FA;
+    transition: 4s;
+   
+}
+#page1nav{
+    background-color: #DBCBA2;
+    transition: 4s;
+    
+}
+#disney1{
+    color: #2674D0;
+    font-family: 'Trebuchet MS';   
+}
+#disney2{
+    color: #2674D0;
+    font-family: 'Trebuchet MS';  
+}
+
+img.pages{
+    height: 428px;
+    width: 398px;
+    margin-top: 70px;
+    border-radius: 10%;
+    
+}
+img.pages1{
+    height: 228px;
+    width: 228px;
+    margin-top: 30%;
+    border-radius: 10%;
+    transition: 2s;
+    
+}
+
+.flip{
+    transform: rotate(180deg);
+}
+img.pages2{
+    height: 228px;
+    width: 228px;
+    margin-top: 30%;
+    margin-right: 50%;
+    border-radius: 10%;
+    
+    
+}
+
+#page2{
+    background-color: #683F3E;
+    transition: 4s;
+    
+}
+#page2nav{
+    background-color: #9B7845;
+    transition: 4s;
+    
+}
+#hog1{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+#hog2{
+    color:white;
+    font-family: 'Trebuchet MS';  
+}
+
+#page1foot{
+    background-color: #DBCBA2;
+    transition: 4s;
+}
+#ani1{
+    color: #2674D0;
+    font-family: 'Trebuchet MS';  
+}
+#ani2{
+    color: #2674D0;
+    font-family: 'Trebuchet MS';  
+}
+
+#page2foot{
+    background-color: #9B7845;
+    transition: 4s;
+}
+#ani3{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+#ani4{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+
+#page3{
+    background-color: #A9A1FF;
+    
+    transition: 4s;
+}
+#page3nav{
+    background-color: #7000FF;
+    transition: 4s;
+    
+}
+#game1{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+#game2{
+    color:white;
+    font-family: 'Trebuchet MS';  
+}
+
+#page3foot{
+    background-color: #7000FF;
+    transition: 4s;
+}
+#ani5{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+#ani6{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+
+#page4{
+    background-color: #2C5E2B;
+    transition: 4s;
+    
+}
+#page4nav{
+    background-color: #5C7C47;
+    transition: 4s;
+}
+#anim1{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+#anim2{
+    color:white;
+    font-family: 'Trebuchet MS';  
+}
+
+#page4foot{
+    background-color: #5C7C47;
+    transition: 4s;
+}
+#ani7{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+#ani8{
+    color: white;
+    font-family: 'Trebuchet MS';  
+}
+
+.button{
+    margin-top: 5px;
+    padding: 17px;
+    width: 200px;
+    background-color: #415D73;
+    border-color: #DBCBA2;
+    border-width: 3px;
+    transition: 4s;
+}
+
+
+.button3{
+    margin-top: 25%;
+    height: 80px;
+    width: 80px;
+    background-color: #415D73;
+    border-radius: 50%;
+    border-color: #DBCBA2;
+    border-width: 3px;
+    transition: 4s;
+}
+
+.text{
+    margin-top: 30%;
+}
+
+span{
+    color: red;
+    font-family: 'Trebuchet MS';  
+
+}
+
+.button4{
+    margin-top: 5px;
+    padding: 17px;
+    width: 200px;
+    background-color: #415D73;
+    border-color: #DBCBA2;
+    border-width: 3px;
+    margin-left: 45%;
+    color: red;
+    font-family: 'Trebuchet MS';  
+    
+}
+
+#anim4{
+    transition: 4s;
+    margin-left: 45%;
+    color: white;
+}
+
+
+
+.animation1{
+ animation: drop 8s linear forwards;
+}
+.animation2{
+    animation: drive 8s linear forwards;
+}
+.animation5{
+    transition: 4s;
+    transform: rotate(360deg);
+
+}
+.animation6{
+    transition: 4s;
+    transform: rotate(80deg);
+
+}
+
+@keyframes drop {
+    from{transform: translateY(-200px);}
+    to{transform: translateY(1800px);}
+}
+
+@keyframes drive {
+    from{transform: translateX(-200px);}
+    to{transform: translateX(1800px);}
+}
+
+@media screen and (max-width:1320px){
+    img.pages{
+        height: 328px;
+    width: 298px;
+        margin-top: 30%;
+        border-radius: 10%;
+        transition: 2s;
+        
+    }
+}
+@media screen and (max-width:1320px){
+    img.pages{
+        height: 328px;
+    width: 298px;
+        margin-top: 30%;
+        border-radius: 10%;
+        transition: 2s;
+        
+    }
+}
+@media screen and (max-width:574px){
+    img.pages{
+        height: 428px;
+    width: 398px;
+        margin-top: 30%;
+        border-radius: 10%;
+        transition: 2s;
+        
+    }
+}
